@@ -1,0 +1,3 @@
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Agent\PrintControl.Agent.pdb
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Agent\appsettings.json
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Agent\PrintControl.Agent.exe

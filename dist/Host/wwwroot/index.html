@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrintControl</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <h1>PrintControl</h1>
+        <p>Monitoramento leve das impressoes por usuario, maquina e impressora.</p>
+      </div>
+      <span class="badge" id="status">Conectando...</span>
+    </header>
+
+    <section class="card filters">
+      <label>
+        Data inicio
+        <input type="date" id="fromDate" />
+      </label>
+      <label>
+        Data fim
+        <input type="date" id="toDate" />
+      </label>
+      <label>
+        Usuario
+        <input type="text" id="userFilter" placeholder="ex: dominio\\usuario" />
+      </label>
+      <label>
+        Maquina
+        <input type="text" id="machineFilter" placeholder="ex: PC-123" />
+      </label>
+      <label>
+        Impressora
+        <input type="text" id="printerFilter" placeholder="ex: HP-ADM" />
+      </label>
+      <label>
+        Min paginas
+        <input type="number" id="minPages" min="0" />
+      </label>
+      <label>
+        Max paginas
+        <input type="number" id="maxPages" min="0" />
+      </label>
+      <div class="actions">
+        <button id="applyBtn">Aplicar</button>
+        <button class="secondary" id="resetBtn">Limpar</button>
+        <button class="secondary" id="exportBtn">Exportar CSV</button>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div class="card">
+        <div class="metric-value" id="totalPages">0</div>
+        <div class="metric-label">Paginas impressas</div>
+      </div>
+      <div class="card">
+        <div class="metric-value" id="totalJobs">0</div>
+        <div class="metric-label">Trabalhos de impressao</div>
+      </div>
+      <div class="card">
+        <div class="metric-value" id="topUser">-</div>
+        <div class="metric-label">Usuario com mais paginas</div>
+      </div>
+      <div class="card">
+        <div class="metric-value" id="topPrinter">-</div>
+        <div class="metric-label">Impressora mais usada</div>
+      </div>
+    </section>
+
+    <section class="charts">
+      <div class="card">
+        <h3>Paginas por usuario</h3>
+        <div class="chart-list" id="chartUsers"></div>
+      </div>
+      <div class="card">
+        <h3>Paginas por impressora</h3>
+        <div class="chart-list" id="chartPrinters"></div>
+      </div>
+    </section>
+
+    <section class="card table">
+      <h3>Ultimas impressoes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Usuario</th>
+            <th>Maquina</th>
+            <th>Impressora</th>
+            <th>Paginas</th>
+            <th>Tamanho</th>
+          </tr>
+        </thead>
+        <tbody id="jobsBody"></tbody>
+      </table>
+      <div class="empty" id="emptyState">Sem dados.</div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

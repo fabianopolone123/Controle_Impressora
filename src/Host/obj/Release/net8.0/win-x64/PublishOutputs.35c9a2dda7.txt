@@ -1,0 +1,3 @@
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Host\appsettings.json
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Host\PrintControl.Host.pdb
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\dist\Host\PrintControl.Host.exe

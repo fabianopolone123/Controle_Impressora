@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "f3iCIn1OceFbu98pfF65ywsK1rsRpJbUaVRVh6WKEhg=",
+  "Source": "PrintControl.Host",
+  "BasePath": "_content/PrintControl.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PrintControl.Host\\wwwroot",
+      "Source": "PrintControl.Host",
+      "ContentRoot": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\",
+      "BasePath": "_content/PrintControl.Host",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\app.js",
+      "SourceId": "PrintControl.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\",
+      "BasePath": "_content/PrintControl.Host",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\index.html",
+      "SourceId": "PrintControl.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\",
+      "BasePath": "_content/PrintControl.Host",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\styles.css",
+      "SourceId": "PrintControl.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabiano.polone\\Documents\\CONTROLE_IMPRESSAO\\src\\Host\\wwwroot\\",
+      "BasePath": "_content/PrintControl.Host",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}
