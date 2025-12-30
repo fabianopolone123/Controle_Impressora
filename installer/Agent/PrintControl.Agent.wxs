@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="PrintControl Agent"
+           Manufacturer="Sidertec"
+           Version="1.0.0"
+           UpgradeCode="26abffc5-7313-45b6-95b4-ac61e9b127d9"
+           Scope="perMachine">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of PrintControl Agent is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <StandardDirectory Id="ProgramFilesFolder">
+      <Directory Id="INSTALLFOLDER" Name="PrintControl">
+        <Directory Id="AGENTDIR" Name="Agent" />
+      </Directory>
+    </StandardDirectory>
+
+    <DirectoryRef Id="AGENTDIR">
+      <Component Id="AgentServiceComponent" Guid="f75b276c-56cb-4d74-a858-ef92355affbb">
+        <File Id="AgentExe" Source="$(var.SourceDir)\PrintControl.Agent.exe" KeyPath="yes" />
+        <File Id="AgentConfig" Source="$(var.SourceDir)\appsettings.json" />
+        <ServiceInstall Id="AgentServiceInstall"
+                        Name="PrintControl.Agent"
+                        DisplayName="PrintControl Agent"
+                        Description="Monitors print jobs and reports to the PrintControl host."
+                        Start="auto"
+                        Type="ownProcess"
+                        ErrorControl="normal"
+                        Account="LocalSystem" />
+        <ServiceControl Id="AgentServiceControl"
+                        Name="PrintControl.Agent"
+                        Start="install"
+                        Stop="both"
+                        Remove="uninstall"
+                        Wait="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="ProductFeature" Title="PrintControl Agent" Level="1">
+      <ComponentRef Id="AgentServiceComponent" />
+    </Feature>
+  </Package>
+</Wix>
