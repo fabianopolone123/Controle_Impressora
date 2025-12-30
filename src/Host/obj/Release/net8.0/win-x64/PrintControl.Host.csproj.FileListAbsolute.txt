@@ -355,3 +355,4 @@ C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Host\obj\Release\net8.0
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Host\obj\Release\net8.0\win-x64\PrintControl.Host.pdb
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Host\obj\Release\net8.0\win-x64\PrintControl.Host.genruntimeconfig.cache
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Host\obj\Release\net8.0\win-x64\ref\PrintControl.Host.dll
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Host\obj\Release\net8.0\win-x64\PrintControl.Host.sourcelink.json

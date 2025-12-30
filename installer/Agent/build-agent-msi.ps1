@@ -1,11 +1,32 @@
 $ErrorActionPreference = "Stop"
 
 $root = Resolve-Path (Join-Path $PSScriptRoot "..\\..")
+$project = Join-Path $root "src\\Agent\\PrintControl.Agent.csproj"
 $sourceDir = Join-Path $root "dist\\Agent"
 $wxs = Join-Path $PSScriptRoot "PrintControl.Agent.wxs"
 $outDir = Join-Path $root "dist\\Installer"
 $msi = Join-Path $outDir "PrintControl.Agent.msi"
 $intermediate = Join-Path $outDir "obj"
+
+$publishArgs = @(
+  "publish",
+  $project,
+  "-c", "Release",
+  "-r", "win-x64",
+  "--self-contained", "true",
+  "-p:PublishSingleFile=true",
+  "-p:IncludeNativeLibrariesForSelfExtract=true",
+  "-o", $sourceDir
+)
+
+if (Test-Path $sourceDir) {
+  Remove-Item -Recurse -Force $sourceDir
+}
+
+dotnet @publishArgs
+if ($LASTEXITCODE -ne 0) {
+  throw "Publish failed."
+}
 
 $exe = Join-Path $sourceDir "PrintControl.Agent.exe"
 $config = Join-Path $sourceDir "appsettings.json"

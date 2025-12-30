@@ -1,3 +1,4 @@
+using System.Text;
 using Microsoft.Extensions.Options;
 using PrintControl.Host;
 using PrintControl.Host.Data;
@@ -21,6 +22,27 @@ if (!string.IsNullOrWhiteSpace(options.ListenUrls))
 builder.Services.AddSingleton<PrintJobRepository>();
 
 var app = builder.Build();
+
+if (!string.IsNullOrWhiteSpace(options.DashboardPassword))
+{
+    app.Use(async (context, next) =>
+    {
+        if (IsAgentIngestRequest(context.Request))
+        {
+            await next();
+            return;
+        }
+
+        if (IsAuthorized(context.Request, options.DashboardUser, options.DashboardPassword))
+        {
+            await next();
+            return;
+        }
+
+        context.Response.Headers.WWWAuthenticate = "Basic realm=\"PrintControl\"";
+        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+    });
+}
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
@@ -81,3 +103,50 @@ app.MapGet("/api/stats/summary", async (HttpRequest request, PrintJobRepository 
 });
 
 app.Run();
+
+static bool IsAgentIngestRequest(HttpRequest request)
+{
+    return HttpMethods.IsPost(request.Method)
+        && request.Path.Equals("/api/print-jobs", StringComparison.OrdinalIgnoreCase);
+}
+
+static bool IsAuthorized(HttpRequest request, string expectedUser, string expectedPassword)
+{
+    if (!request.Headers.TryGetValue("Authorization", out var headerValues))
+    {
+        return false;
+    }
+
+    var header = headerValues.ToString();
+    if (!header.StartsWith("Basic ", StringComparison.OrdinalIgnoreCase))
+    {
+        return false;
+    }
+
+    var encoded = header["Basic ".Length..].Trim();
+    if (string.IsNullOrWhiteSpace(encoded))
+    {
+        return false;
+    }
+
+    string decoded;
+    try
+    {
+        decoded = Encoding.UTF8.GetString(Convert.FromBase64String(encoded));
+    }
+    catch (FormatException)
+    {
+        return false;
+    }
+
+    var separatorIndex = decoded.IndexOf(':');
+    if (separatorIndex <= 0)
+    {
+        return false;
+    }
+
+    var user = decoded[..separatorIndex];
+    var password = decoded[(separatorIndex + 1)..];
+    return string.Equals(user, expectedUser, StringComparison.Ordinal)
+        && string.Equals(password, expectedPassword, StringComparison.Ordinal);
+}

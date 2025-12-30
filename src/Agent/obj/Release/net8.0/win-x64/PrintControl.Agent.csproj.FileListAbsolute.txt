@@ -229,3 +229,4 @@ C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Agent\obj\Release\net8.
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Agent\obj\Release\net8.0\win-x64\PrintControl.Agent.genruntimeconfig.cache
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Agent\obj\Release\net8.0\win-x64\ref\PrintControl.Agent.dll
 C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Agent\bin\Release\net8.0\win-x64\appsettings.json
+C:\Users\fabiano.polone\Documents\CONTROLE_IMPRESSAO\src\Agent\obj\Release\net8.0\win-x64\PrintControl.Agent.sourcelink.json

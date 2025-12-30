@@ -11,7 +11,6 @@
         "dependencies": {
           "Microsoft.Data.Sqlite": "8.0.0",
           "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
-          "Microsoft.NET.ILLink.Tasks": "8.0.22",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "8.0.22",
           "runtimepack.Microsoft.AspNetCore.App.Runtime.win-x64": "8.0.22"
         },
@@ -1536,7 +1535,6 @@
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
-      "Microsoft.NET.ILLink.Tasks/8.0.22": {},
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -1825,13 +1823,6 @@
       "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.NET.ILLink.Tasks/8.0.22": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MhcMithKEiyyNkD2ZfbDZPmcOdi0GheGfg8saEIIEfD/fol3iHmcV8TsZkD4ZYz5gdUuoX4YtlVySUU7Sxl9SQ==",
-      "path": "microsoft.net.illink.tasks/8.0.22",
-      "hashPath": "microsoft.net.illink.tasks.8.0.22.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",

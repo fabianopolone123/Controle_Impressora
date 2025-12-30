@@ -1,0 +1,1116 @@
+==== PrintControl Agent diagnostics 30/12/2025 11:41:48,83 ====
+Computer: QUA-ANDRE
+User: administrador
+Share: \\ti-fabiano\SHARE
+Host: 192.168.22.5
+
+[OS]
+
+Microsoft Windows [vers∆o 10.0.19045.6456]
+
+[Identity]
+
+INFORMAÄÂES DE USUµRIO
+-----------------------
+
+Nome de usu†rio        SID                                          
+====================== =============================================
+sidertec\administrador S-1-5-21-3825720235-2618581338-1439763463-500
+
+
+INFORMAÄÂES DE GRUPO
+---------------------
+
+Nome do grupo                                         Tipo                     SID                                           Atributos                                                                  
+===================================================== ======================== ============================================= ===========================================================================
+Todos                                                 Grupo bastante conhecido S-1-1-0                                       Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+BUILTIN\Usu†rios                                      Alias                    S-1-5-32-545                                  Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+BUILTIN\Administradores                               Alias                    S-1-5-32-544                                  Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado, Propriet†rio do grupo
+AUTORIDADE NT\INTERATIVO                              Grupo bastante conhecido S-1-5-4                                       Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+LOGON de CONSOLE                                      Grupo bastante conhecido S-1-2-1                                       Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+AUTORIDADE NT\Usu†rios autenticados                   Grupo bastante conhecido S-1-5-11                                      Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+AUTORIDADE NT\Esta organizaá∆o                        Grupo bastante conhecido S-1-5-15                                      Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+LOCAL                                                 Grupo bastante conhecido S-1-2-0                                       Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+SIDERTEC\Propriet†rios criadores de diretiva de grupo Grupo                    S-1-5-21-3825720235-2618581338-1439763463-520 Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+SIDERTEC\Admins. do dom°nio                           Grupo                    S-1-5-21-3825720235-2618581338-1439763463-512 Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+SIDERTEC\Administradores de empresa                   Grupo                    S-1-5-21-3825720235-2618581338-1439763463-519 Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+SIDERTEC\Administradores de esquema                   Grupo                    S-1-5-21-3825720235-2618581338-1439763463-518 Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+Identidade declarada de autoridade de autenticaá∆o    Grupo bastante conhecido S-1-18-1                                      Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado                       
+SIDERTEC\Grupo de Replicaá∆o de Senha RODC Negado     Alias                    S-1-5-21-3825720235-2618581338-1439763463-572 Grupo obrigat¢rio, Ativado por padr∆o, Grupo ativado, Grupo local          
+R¢tulo Obrigat¢rio\N°vel Obrigat¢rio Alto             R¢tulo                   S-1-16-12288                                                                                                             
+
+
+INFORMAÄÂES DE PRIVILêGIOS
+---------------------------
+
+Nome de privilÇgio                        Descriá∆o                                                          Estado    
+========================================= ================================================================== ==========
+SeIncreaseQuotaPrivilege                  Ajustar quotas de mem¢ria para um processo                         Desativado
+SeSecurityPrivilege                       Gerenciar a auditoria e o log de seguranáa                         Desativado
+SeTakeOwnershipPrivilege                  Apropriar-se de arquivos ou de outros objetos                      Desativado
+SeLoadDriverPrivilege                     Carregar e descarregar drivers de dispositivos                     Desativado
+SeSystemProfilePrivilege                  Traáar um perfil do desempenho do sistema                          Desativado
+SeSystemtimePrivilege                     Alterar a hora do sistema                                          Desativado
+SeProfileSingleProcessPrivilege           Traáar um perfil de um £nico processo                              Desativado
+SeIncreaseBasePriorityPrivilege           Aumentar a prioridade de planejamento                              Desativado
+SeCreatePagefilePrivilege                 Criar um arquivo de permuta                                        Desativado
+SeBackupPrivilege                         Fazer backup de arquivos e pastas                                  Desativado
+SeRestorePrivilege                        Restaurar arquivos e pastas                                        Desativado
+SeShutdownPrivilege                       Desligar o sistema                                                 Desativado
+SeDebugPrivilege                          Depurar programas                                                  Desativado
+SeSystemEnvironmentPrivilege              Alterar valores de ambiente de firmware                            Desativado
+SeChangeNotifyPrivilege                   Ignorar a verificaá∆o completa                                     Ativada   
+SeRemoteShutdownPrivilege                 Foráar o desligamento a partir de um sistema remoto                Desativado
+SeUndockPrivilege                         Remover o computador da base de encaixe                            Desativado
+SeManageVolumePrivilege                   Executar tarefas de manutená∆o de volume                           Desativado
+SeImpersonatePrivilege                    Representar um cliente ap¢s autenticaá∆o                           Ativada   
+SeCreateGlobalPrivilege                   Criar objetos globais                                              Ativada   
+SeIncreaseWorkingSetPrivilege             Aumentar conjunto de trabalho de processo                          Desativado
+SeTimeZonePrivilege                       Alterar fuso hor†rio                                               Desativado
+SeCreateSymbolicLinkPrivilege             Criar links simb¢licos                                             Desativado
+SeDelegateSessionUserImpersonatePrivilege Obter um token de representaá∆o para outro usu†rio na mesma sess∆o Desativado
+
+
+INFORMAÄÂES DE DECLARAÄÂES DO USUµRIO
+-----------------------
+
+Declaraá‰es do usu†rio desconhecidas.
+
+O suporte a Kerberos do Controle de Acesso DinÉmico neste dispositivo foi desabilitado.
+
+[Network]
+
+Configuraá∆o de IP do Windows
+
+   Nome do host. . . . . . . . . . . . . . . . : QUA-ANDRE
+   Sufixo DNS prim†rio . . . . . . . . . . . . : SIDERTEC.INTRA.NET
+   Tipo de n¢. . . . . . . . . . . . . . . . . : h°brido
+   Roteamento de IP ativado. . . . . . . . . . : n∆o
+   Proxy WINS ativado. . . . . . . . . . . . . : n∆o
+   Lista de pesquisa de sufixo DNS . . . . . . : SIDERTEC.INTRA.NET
+
+Adaptador Ethernet Ethernet:
+
+   Sufixo DNS espec°fico de conex∆o. . . . . . : sidertec.intra.net
+   Descriá∆o . . . . . . . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Endereáo F°sico . . . . . . . . . . . . . . : 2C-FD-A1-C8-8E-32
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 192.168.22.211(Preferencial) 
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Concess∆o Obtida. . . . . . . . . . . . . . : teráa-feira, 30 de dezembro de 2025 11:01:55
+   Concess∆o Expira. . . . . . . . . . . . . . : quarta-feira, 31 de dezembro de 2025 11:01:55
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 192.168.22.1
+   Servidor DHCP . . . . . . . . . . . . . . . : 192.168.22.1
+   Servidores DNS. . . . . . . . . . . . . . . : 192.168.22.8
+                                                 192.168.22.9
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+
+Disparando 192.168.22.5 com 32 bytes de dados:
+Resposta de 192.168.22.5: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.22.5: bytes=32 tempo<1ms TTL=128
+
+Estat°sticas do Ping para 192.168.22.5:
+    Pacotes: Enviados = 2, Recebidos = 2, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M°nimo = 0ms, M†ximo = 0ms, MÇdia = 0ms
+
+
+ComputerName     : 192.168.22.5
+RemoteAddress    : 192.168.22.5
+RemotePort       : 5080
+InterfaceAlias   : Ethernet
+SourceAddress    : 192.168.22.211
+TcpTestSucceeded : True
+
+
+
+
+[GPO]
+
+Ferramenta de resultados de pol°tica de grupo v2.0 do Sistema operacional
+Microsoft (R) Windows (R)
+∏ Microsoft Corporation. Todos os direitos reservados.
+
+Criado em ?30/?12/?2025 Ös 11:41:53
+
+
+Dados RSOP para  em QUA-ANDRE : modo de log
+--------------------------------------------
+
+Configuraá∆o do sistema operacional:  Estaá∆o de trabalho membro
+Vers∆o do sistema operacional:        10.0.19045
+Nome do site:                         Default-First-Site-Name
+Perfil m¢vel:                         
+Perfil local:                         
+Conectado por meio de um link lento?: N∆o
+
+
+CONFIGURAÄÂES DO COMPUTADOR
+----------------------------
+    CN=QUA-ANDRE,OU=Todos,OU=Computadores,DC=SIDERTEC,DC=INTRA,DC=NET
+    Èltima vez em que a pol°tica de grupo foi aplicada: 30/12/2025 em 11:02:01
+    A pol°tica de grupo foi aplicada de:                SRV-AD.SIDERTEC.INTRA.NET
+    Limite de v°nculo lento de pol°tica de grupo:       500 kbps
+    Nome do dom°nio:                                    SIDERTEC
+    Tipo de dom°nio:                                    Windows 2008 ou posterior
+
+    Objetos de pol°tica de grupo aplicados
+    ---------------------------------------
+        Controle_Impressoes
+        Default Domain Policy
+        Mensagem Login
+        Atalhos Desktop
+        Auditoria de Arquivos
+        Auditoria de Logon
+        Habilitar WMI
+        Desativar IPv6 Script
+
+    Os GPOs a seguir n∆o foram aplicados porque foram filtrados
+    ------------------------------------------------------------
+        Auditoria
+            Filtragem:  Negado (seguranáa)
+
+        Pol°ticas de grupo locais
+            Filtragem:  N∆o aplicado (vazio)
+
+    O computador faz parte dos seguintes grupos de seguranáa
+    --------------------------------------------------------
+        Administradores
+        Todos
+        Usu†rios
+        REDE
+        Usu†rios autenticados
+        Esta organizaá∆o
+        QUA-ANDRE$
+        Computadores do dom°nio
+        Identidade declarada de autoridade de autenticaá∆o
+        N°vel Obrigat¢rio do Sistema
+        
+[GPO Startup Scripts]
+
+[Share]
+Novas conex‰es ser∆o lembradas.
+
+
+Status       Local     Remoto                    Rede
+
+-------------------------------------------------------------------------------
+OK           M:        \\srv-fs.sidertec.intra.net\Sistemas 
+                                                Microsoft Windows Network
+OK           P:        \\srv-pj\projetos         Microsoft Windows Network
+OK           S:        \\srv-fs\sidertec         Microsoft Windows Network
+Comando conclu°do com àxito.
+
+ O volume na unidade \\ti-fabiano\SHARE n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 8ABB-CEF0
+
+ Pasta de \\ti-fabiano\SHARE
+
+30/12/2025  08:28            94.208 PrintControl.Agent.msi
+               1 arquivo(s)         94.208 bytes
+               0 pasta(s)   140.254.801.920 bytes dispon°veis
+ O volume na unidade \\ti-fabiano\SHARE n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 8ABB-CEF0
+
+ Pasta de \\ti-fabiano\SHARE
+
+
+[Services]
+
+NOME_DO_SERVIÄO: spooler 
+    TIPO                       : 110  WIN32_OWN_PROCESS  (interactive)
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: eventlog 
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+[SC] EnumQueryServicesStatus:OpenService FALHA 1060:
+
+O serviáo especificado n∆o existe como serviáo instalado.
+
+[SC] EnumQueryServicesStatus:OpenService FALHA 1060:
+
+O serviáo especificado n∆o existe como serviáo instalado.
+
+[SC] OpenService FALHA 1060:
+
+O serviáo especificado n∆o existe como serviáo instalado.
+
+
+[Agent Files]
+
+[Agent Config]
+
+[DotNet Runtime]
+
+[PrintService Log]
+name: Microsoft-Windows-PrintService/Operational
+enabled: true
+type: Operational
+owningPublisher: Microsoft-Windows-PrintService
+isolation: Application
+channelAccess: O:BAG:SYD:(A;;0x2;;;S-1-15-2-1)(A;;0x2;;;S-1-15-3-1024-3153509613-960666767-3724611135-2725662640-12138253-543910227-1950414635-4190290187)(A;;0xf0007;;;SY)(A;;0x7;;;BA)(A;;0x7;;;SO)(A;;0x3;;;IU)(A;;0x3;;;SU)(A;;0x3;;;S-1-5-3)(A;;0x3;;;S-1-5-33)(A;;0x1;;;S-1-5-32-573)
+logging:
+  logFileName: %SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-PrintService%4Operational.evtx
+  retention: false
+  autoBackup: false
+  maxSize: 1052672
+publishing:
+  fileMax: 1
+
+
+[Service Control Manager Events]
+Event[0]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-10-31T16:21:24.1330000Z
+  Event ID: 7023
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: WIN-6BFDP8I1MTS
+  Description: 
+O serviÁo netprofm terminou com o erro: 
+O dispositivo n„o est· pronto.
+
+Event[1]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T09:59:43.8550000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[2]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T09:59:43.8550000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: DESKTOP-SRQ6069
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[3]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T13:59:25.0200000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[4]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T13:59:25.0200000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[5]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T16:42:15.3980000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[6]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T16:42:15.3980000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[7]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T17:17:30.7150000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[8]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-03T17:17:30.7150000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[9]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-05T08:01:16.3770000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[10]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-05T08:01:16.3770000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[11]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-06T16:43:55.3450000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[12]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-06T16:43:55.3450000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[13]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-17T11:00:54.9490000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[14]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-17T11:00:54.9490000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[15]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-19T07:08:09.0940000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo ServiÁo do Google Update (gupdate).
+
+Event[16]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-11-19T07:08:09.0940000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo ServiÁo do Google Update (gupdate) devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[17]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-12-30T11:02:02.1640000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo PrintControl Agent.
+
+Event[18]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-12-30T11:02:02.1640000Z
+  Event ID: 7000
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+N„o foi possÌvel iniciar o serviÁo PrintControl Agent devido ao seguinte erro: 
+O serviÁo n„o respondeu ‡ requisiÁ„o de inÌcio ou controle em tempo h·bil.
+
+Event[19]:
+  Log Name: System
+  Source: Service Control Manager
+  Date: 2025-12-30T11:02:07.1740000Z
+  Event ID: 7009
+  Task: N/A
+  Level: Erro
+  Opcode: N/A
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Tempo limite esgotado (30000 milissegundos) ao aguardar a conex„o do serviÁo PrintControl Agent.
+
+
+[MsiInstaller Events]
+Event[0]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:34:00.4240000Z
+  Event ID: 1040
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Iniciando uma transaÁ„o do Windows Installer: C:\WINDOWS\SoftwareDistribution\Download\288e5bcf02690b1773d1985d53d1ed9b\img\Windows10.0-KB5001716-x64.msi. ID de Processo do Cliente: 10096.
+
+Event[1]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:34:00.9550000Z
+  Event ID: 11707
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Produto: Update for Windows 10 for x64-based Systems (KB5001716) -- OperaÁ„o de instalaÁ„o concluÌda com Íxito.
+
+Event[2]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:34:00.9550000Z
+  Event ID: 1033
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+O Windows Installer instalou o produto. Nome do Produto: Update for Windows 10 for x64-based Systems (KB5001716). Vers„o do Produto: 8.94.0.0. Idioma do Produto: 0. Fabricante: Microsoft Corporation. Status de erro ou Íxito da instalaÁ„o: 0.
+
+Event[3]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:34:00.9710000Z
+  Event ID: 1042
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Terminando uma transaÁ„o do Windows Installer: C:\WINDOWS\SoftwareDistribution\Download\288e5bcf02690b1773d1985d53d1ed9b\img\Windows10.0-KB5001716-x64.msi. ID de Processo do Cliente: 10096.
+
+Event[4]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:35:55.1740000Z
+  Event ID: 1040
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Iniciando uma transaÁ„o do Windows Installer: C:\WINDOWS\TEMP\D7EA1269-A5EC-41FC-BDE6-BD61EAA2A40F\UpdHealthTools.msi. ID de Processo do Cliente: 628.
+
+Event[5]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:35:55.3740000Z
+  Event ID: 11707
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Produto: Microsoft Update Health Tools -- OperaÁ„o de instalaÁ„o concluÌda com Íxito.
+
+Event[6]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:35:55.3740000Z
+  Event ID: 1033
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+O Windows Installer instalou o produto. Nome do Produto: Microsoft Update Health Tools. Vers„o do Produto: 3.74.0.0. Idioma do Produto: 0. Fabricante: Microsoft Corporation. Status de erro ou Íxito da instalaÁ„o: 0.
+
+Event[7]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:35:55.3890000Z
+  Event ID: 1042
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Terminando uma transaÁ„o do Windows Installer: C:\WINDOWS\TEMP\D7EA1269-A5EC-41FC-BDE6-BD61EAA2A40F\UpdHealthTools.msi. ID de Processo do Cliente: 628.
+
+Event[8]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:18.0300000Z
+  Event ID: 1040
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Iniciando uma transaÁ„o do Windows Installer: C:\Program Files\Microsoft Office\root\Integration\C2RInt.16.msi. ID de Processo do Cliente: 7184.
+
+Event[9]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:26.8090000Z
+  Event ID: 11707
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Produto: Office 16 Click-to-Run Extensibility Component -- OperaÁ„o de instalaÁ„o concluÌda com Íxito.
+
+Event[10]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:26.8090000Z
+  Event ID: 1033
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+O Windows Installer instalou o produto. Nome do Produto: Office 16 Click-to-Run Extensibility Component. Vers„o do Produto: 16.0.19328.20106. Idioma do Produto: 0. Fabricante: Microsoft Corporation. Status de erro ou Íxito da instalaÁ„o: 0.
+
+Event[11]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:26.8250000Z
+  Event ID: 1042
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Terminando uma transaÁ„o do Windows Installer: C:\Program Files\Microsoft Office\root\Integration\C2RInt.16.msi. ID de Processo do Cliente: 7184.
+
+Event[12]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:27.1060000Z
+  Event ID: 1040
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Iniciando uma transaÁ„o do Windows Installer: C:\Program Files\Microsoft Office\root\Integration\C2RIntLoc.pt-br.16.msi. ID de Processo do Cliente: 7184.
+
+Event[13]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:29.1370000Z
+  Event ID: 11707
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Produto: Office 16 Click-to-Run Localization Component -- OperaÁ„o de instalaÁ„o concluÌda com Íxito.
+
+Event[14]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:29.1370000Z
+  Event ID: 1033
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+O Windows Installer instalou o produto. Nome do Produto: Office 16 Click-to-Run Localization Component. Vers„o do Produto: 16.0.19328.20106. Idioma do Produto: 1046. Fabricante: Microsoft Corporation. Status de erro ou Íxito da instalaÁ„o: 0.
+
+Event[15]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:29.1370000Z
+  Event ID: 1042
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Terminando uma transaÁ„o do Windows Installer: C:\Program Files\Microsoft Office\root\Integration\C2RIntLoc.pt-br.16.msi. ID de Processo do Cliente: 7184.
+
+Event[16]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:32.7140000Z
+  Event ID: 1040
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Iniciando uma transaÁ„o do Windows Installer: c:\program files\microsoft office\root\integration\c2rint.16.msi. ID de Processo do Cliente: 7184.
+
+Event[17]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:34.0570000Z
+  Event ID: 11728
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Produto: Office 16 Click-to-Run Extensibility Component -- ConfiguraÁ„o concluÌda com Íxito.
+
+Event[18]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:34.0570000Z
+  Event ID: 1035
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+O Windows Installer reconfigurou o produto. Nome do Produto: Office 16 Click-to-Run Extensibility Component. Vers„o do Produto: 16.0.19328.20106. Idioma do Produto: 0. Fabricante: Microsoft Corporation. Status de erro ou Íxito da reconfiguraÁ„o: 0.
+
+Event[19]:
+  Log Name: Application
+  Source: MsiInstaller
+  Date: 2025-11-03T09:54:34.0730000Z
+  Event ID: 1042
+  Task: N/A
+  Level: InformaÁıes
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-SRQ6069
+  Description: 
+Terminando uma transaÁ„o do Windows Installer: c:\program files\microsoft office\root\integration\c2rint.16.msi. ID de Processo do Cliente: 7184.
+
+
+[.NET Runtime Events]
+Event[0]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-11-04T12:01:06.5090000Z
+  Event ID: 1022
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+.NET Runtime version 4.0.30319.0 - Falha ao inicializar a infra-estrutura de anexaÁ„o da API do criador de perfil. Esse processo n„o permite que um perfil seja anexado. HRESULT: 0x80004005.  ID do Processo (decimal): 12140. ID da Mensagem: [0x2509].
+
+Event[1]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-11-14T10:57:53.7770000Z
+  Event ID: 1022
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+.NET Runtime version 4.0.30319.0 - Falha ao inicializar a infra-estrutura de anexaÁ„o da API do criador de perfil. Esse processo n„o permite que um perfil seja anexado. HRESULT: 0x80004005.  ID do Processo (decimal): 1016. ID da Mensagem: [0x2509].
+
+Event[2]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:02.1640000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[3]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:07.1740000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[4]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:12.1870000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[5]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:17.2000000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[6]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:22.2080000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[7]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:27.2300000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+Event[8]:
+  Log Name: Application
+  Source: .NET Runtime
+  Date: 2025-12-30T11:02:32.2410000Z
+  Event ID: 1023
+  Task: N/A
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: QUA-ANDRE.SIDERTEC.INTRA.NET
+  Description: 
+Description: A .NET application failed.
+Application: PrintControl.Agent.exe
+Path: C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.exe
+Message: The application to execute does not exist: 'C:\Program Files (x86)\PrintControl\Agent\PrintControl.Agent.dll'.
+
+
+
+
+[Application Error Events]
+Event[0]:
+  Log Name: Application
+  Source: Application Error
+  Date: 2025-11-06T16:32:26.6810000Z
+  Event ID: 1000
+  Task: Eventos de falha do aplicativo
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Nome do aplicativo com falha: LogAnalyzer.exe, vers„o: 2.19.0.3, carimbo de data/hora: 0x68f18211
+Nome do mÛdulo com falha: LogAnalyzer.exe, vers„o: 2.19.0.3, carimbo de data/hora: 0x68f18211
+CÛdigo de exceÁ„o: 0xc0000409
+Deslocamento da falha: 0x0000000000781635
+ID do processo com falha: 0x1614
+Hora de inÌcio do aplicativo com falha: 0x01dc4f535ea62b5a
+Caminho do aplicativo com falha: C:\Users\ADMINI~1\AppData\Local\Temp\odis_download_dest\12860691716997730504\Setup\LogAnalyzer.exe
+Caminho do mÛdulo com falha: C:\Users\ADMINI~1\AppData\Local\Temp\odis_download_dest\12860691716997730504\Setup\LogAnalyzer.exe
+ID do RelatÛrio: ded6e4f5-f603-4642-b58d-1ff8716a2df5
+Nome completo do pacote com falha: 
+ID do aplicativo relativo ao pacote com falha: 
+
+Event[1]:
+  Log Name: Application
+  Source: Application Error
+  Date: 2025-11-19T10:35:14.0650000Z
+  Event ID: 1000
+  Task: Eventos de falha do aplicativo
+  Level: Erro
+  Opcode: InformaÁıes
+  Keyword: Cl·ssico
+  User: N/A
+  User Name: N/A
+  Computer: PCP-ANDRE-248.SIDERTEC.INTRA.NET
+  Description: 
+Nome do aplicativo com falha: EXCEL.EXE, vers„o: 16.0.19328.20190, carimbo de data/hora: 0x690e57b7
+Nome do mÛdulo com falha: mso20win32client.dll, vers„o: 0.0.0.0, carimbo de data/hora: 0x690e5096
+CÛdigo de exceÁ„o: 0x207183dc
+Deslocamento da falha: 0x00000000002bf0fd
+ID do processo com falha: 0x11a8
+Hora de inÌcio do aplicativo com falha: 0x01dc59593a6399a6
+Caminho do aplicativo com falha: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Caminho do mÛdulo com falha: C:\Program Files\Common Files\Microsoft Shared\Office16\mso20win32client.dll
+ID do RelatÛrio: 637701a2-d692-4eb3-b319-6dc9f7610625
+Nome completo do pacote com falha: 
+ID do aplicativo relativo ao pacote com falha: 
+
+
+[Last MSI Log]
+No MSI log found.
+
+
+==== End diagnostics ====
