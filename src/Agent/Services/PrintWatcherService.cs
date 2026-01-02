@@ -93,6 +93,11 @@ public sealed class PrintWatcherService : BackgroundService
             job = job with { DocumentName = null };
         }
 
+        if (IsPdfPrinter(job.PrinterName))
+        {
+            return;
+        }
+
         _ = Task.Run(() => SendOrQueueAsync(job), CancellationToken.None);
     }
 
@@ -182,5 +187,15 @@ public sealed class PrintWatcherService : BackgroundService
         {
             _logger.LogWarning(ex, "Nao foi possivel habilitar o log de impressao.");
         }
+    }
+
+    private static bool IsPdfPrinter(string? printerName)
+    {
+        if (string.IsNullOrWhiteSpace(printerName))
+        {
+            return false;
+        }
+
+        return printerName.IndexOf("PDF", StringComparison.OrdinalIgnoreCase) >= 0;
     }
 }

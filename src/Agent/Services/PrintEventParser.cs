@@ -1,5 +1,6 @@
 using System.Diagnostics.Eventing.Reader;
 using System.Net;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using PrintControl.Agent.Models;
 
@@ -7,6 +8,8 @@ namespace PrintControl.Agent.Services;
 
 public static class PrintEventParser
 {
+    private static readonly Regex IpRegex = new(@"\b\d{1,3}(?:\.\d{1,3}){3}\b", RegexOptions.Compiled);
+
     public static bool TryParse(EventRecord record, out PrintJobPayload job)
     {
         job = null!;
@@ -217,19 +220,18 @@ public static class PrintEventParser
 
     private static string? NormalizePrinter(string? printer, string? address)
     {
+        var ip = ExtractIp(address) ?? ExtractIp(printer);
+        if (!string.IsNullOrWhiteSpace(ip))
+        {
+            return ip;
+        }
+
         if (string.IsNullOrWhiteSpace(printer))
         {
             return NormalizeAddress(address);
         }
 
-        if (string.IsNullOrWhiteSpace(address))
-        {
-            return printer;
-        }
-
-        return IsLikelyDriverName(printer) && IsIpAddress(address)
-            ? address
-            : printer;
+        return printer;
     }
 
     private static string? NormalizeAddress(string? address)
@@ -242,16 +244,26 @@ public static class PrintEventParser
         return IPAddress.TryParse(value, out _);
     }
 
-    private static bool IsLikelyDriverName(string value)
+    private static string? ExtractIp(string? value)
     {
-        var upper = value.ToUpperInvariant();
-        return upper.Contains(" PCL")
-            || upper.Contains("PCL ")
-            || upper.Contains(" PS")
-            || upper.Contains("PS ")
-            || upper.Contains("XPS")
-            || upper.Contains("CLASS DRIVER")
-            || upper.Contains("UNIVERSAL");
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            return null;
+        }
+
+        var trimmed = value.Trim();
+        if (IsIpAddress(trimmed))
+        {
+            return trimmed;
+        }
+
+        var match = IpRegex.Match(trimmed);
+        if (match.Success && IsIpAddress(match.Value))
+        {
+            return match.Value;
+        }
+
+        return null;
     }
 
     private static string? GetFromMap(IReadOnlyDictionary<string, string> map, string key)
